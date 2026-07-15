@@ -13,7 +13,7 @@ Complex numbers expand our mathematical horizon, providing a complete algebraic 
 
 ## 1. Introduction and Definitions
 
-A **complex number** $z$ is defined as an ordered pair of real numbers $(a, b)$, written in the algebraic form:
+A **complex number** \\(z\\) is defined as an ordered pair of real numbers $(a, b)$, written in the algebraic form:
 
 $$z = a + bi$$
 
