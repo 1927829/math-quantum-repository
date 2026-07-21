@@ -5,6 +5,11 @@
 layout: home
 author_profile: true
 ---
+
+## Project Idea
+
+Create a visualization of famous quantum algorithms for a better understand of how they work.
+
 ## Background
 
 Motivation: Bloch sphere
@@ -25,7 +30,7 @@ Video: https://www.youtube.com/watch?v=WjjUfEpej-0
 
 Tools:
 
-Python, Qtip
+Python, Qtip, Complex Numbers, Solid Geometry
 
 Goals: Gain a more intuitive understanding of quantum algorithms
 
