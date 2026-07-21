@@ -5,7 +5,11 @@
 layout: home
 author_profile: true
 ---
+## Background
 
+Motivation: Bloch sphere
+
+Video: https://www.youtube.com/watch?v=WjjUfEpej-0
 
 ## 1. Visualizing Quantum Algorithms
 
@@ -17,9 +21,12 @@ author_profile: true
 
 ### Quantum Bomb Experiment
 
+
+
 Tools:
 
 Python, Qtip
 
 Goals: Gain a more intuitive understanding of quantum algorithms
+
 Goals: Beter understand the motivation on how these quantum algorithms were invented
