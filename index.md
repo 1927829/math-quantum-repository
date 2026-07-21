@@ -6,9 +6,20 @@ layout: home
 author_profile: true
 ---
 
-## 1. Introduction and Definitions
 
-A **complex number** \\(z\\) is defined as an ordered pair of real numbers $(a, b)$, written in the algebraic form:
+## 1. Visualizing Quantum Algorithms
 
-$$z = a + bi$$
+### Deutsch Algorithm
 
+### Deutsch-Hoza Algorithm
+
+### Grover's Algorithm
+
+### Quantum Bomb Experiment
+
+Tools:
+
+Python, Qtip
+
+Goals: Gain a more intuitive understanding of quantum algorithms
+Goals: Beter understand the motivation on how these quantum algorithms were invented
