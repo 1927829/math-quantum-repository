@@ -10,7 +10,7 @@ author_profile: true
 
 Create a visualization of famous quantum algorithms for a better understand of how they work.
 
-To generalize the visualization of quantum algorithms to a higher number of entangled qubits, one must create subspaces per direction of the arrow (since human beings cannot visualize more than \\3\\ dimensions; we can even ignore phase in some visualizations of the quantum algorithm doesn't use it). Even though this is very restrictive, we generally do not care about every result when doing quantum algorithms (apparently). 
+To generalize the visualization of quantum algorithms to a higher number of entangled qubits, one must create subspaces per direction of the arrow (since human beings cannot visualize more than \\3\\ dimensions). Even though this is very restrictive, we generally do not care about every result when doing quantum algorithms (apparently). 
 
 ## Background
 
