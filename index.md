@@ -5,11 +5,6 @@
 layout: home
 author_profile: true
 ---
-#Complex Numbers
-
-Complex numbers expand our mathematical horizon, providing a complete algebraic system where every non-zero polynomial has roots. Beyond their algebraic utility, complex numbers offer a elegant, unified geometric framework that bridges algebra, geometry, trigonometry, and calculus.
-
----
 
 ## 1. Introduction and Definitions
 
