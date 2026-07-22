@@ -10,18 +10,19 @@ author_profile: true
 
 Create a visualization of famous quantum algorithms for a better understand of how they work.
 
-To generalize the visualization of quantum algorithms to a higher number of entangled qubits, one must create subspaces per direction of the arrow (since human beings cannot visualize more than \\(3\\) dimensions). Even though this is very restrictive, we generally do not care about every result when doing quantum algorithms (apparently). 
+To generalize the visualization of quantum algorithms to a higher number of entangled qubits, one must create subspaces per direction of the arrow (since human beings cannot visualize more than \\(3\\) dimensions). Even though this is very restrictive, we sometimes do not care about every result when doing quantum algorithms. Whenever that is the case, we can find a way to visualize the algorithm. 
 
 ## Background
 
-Motivation: Bloch sphere
+Motivation: The Bloch sphere was an excellent tool to visualize \\(1\\) qubit quantum systems and unitary operators, but fails to make any meaningful visualization when we have multiple entangled qubits. 
 
-Video: https://www.youtube.com/watch?v=WjjUfEpej-0
+Luckily, when using subspaces as cardinal directions for quantum algorithms, a unitary operator is still a rotation on that sphere, like how it is a rotation on the Bloch sphere.
 
-## 1. Visualizing Quantum Algorithms
+Video: Visualizing Qubits on the Bloch Sphere-Qiskit: https://www.youtube.com/watch?v=WjjUfEpej-0
 
 
-### Deutsch-Hoza Algorithm
+## An Example Of Visualizing Quantum Algorithms: The Deutsch-Hoza Algorithm
+
 
 Deutsch-Hoza Algorithm is a quantum algorithm that solves the following problem.
 
@@ -75,18 +76,11 @@ Therefore, the Deutsch-Hoza returns \\(0\\) if \\(f(x)\\) is constant, and somet
 
 
 
-### Grover's Algorithm
 
-### No Overshooting Grover
+### Tools
 
-### Quantum Bomb Experiment
+To create these diagrams for visualization of quantum algorithms, I used Python and Qutip. To understand quantum algorithms, one must be familiar with complex numbers and some quantum gates.
 
+### Goals Of This Project
 
-
-Tools:
-
-Python, Qtip, Complex Numbers, Solid Geometry
-
-Goals: Gain a more intuitive understanding of quantum algorithms
-
-Goals: Beter understand the motivation on how these quantum algorithms were invented
+By visualization quantum algorithms, we can get more of an intutive feeling of how they work. Moreover, we can better understand the motivation behind these algorithms, as we can actually see what is going on, since we are no longer staring at mathematical calculations and praying something cancels out in the end.
