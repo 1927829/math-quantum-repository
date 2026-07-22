@@ -50,7 +50,7 @@ Two rotations of \\(180\\) degrees does nothing to the qubit, and it is back to 
 
 After a measurement, we are guaranteed to get the \\(0\\) state.
 
-Next, we see what happens if \\(f(x)\\) is balanced instead. We now use two different subspaces, the subspace where \\(f(x)=0)\\ and the subspace where \\(f(x)=1\\). Denote these subspaces \\(a\\) and \\(b\\), respectively. Let us assume \\(f(0)=0\\), so the qubit initializes in the \\(a\\) subspace.
+Next, we see what happens if \\(f(x)\\) is balanced instead. We now use two different subspaces, the subspace where \\(f(x)=0\\) and the subspace where \\(f(x)=1\\). Denote these subspaces \\(a\\) and \\(b\\), respectively. Let us assume \\(f(0)=0\\), so the qubit initializes in the \\(a\\) subspace.
 
 <img width="379" height="357" alt="image" src="https://github.com/user-attachments/assets/1ff1c5ab-04d8-4185-b212-181345b862a3" />
 
