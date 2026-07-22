@@ -10,7 +10,7 @@ author_profile: true
 
 Create a visualization of famous quantum algorithms for a better understand of how they work.
 
-To generalize the visualization of quantum algorithms to a higher number of entangled qubits, one must create subspaces per direction of the arrow (since human beings cannot visualize more than \\3\\ dimensions). Even though this is very restrictive, we generally do not care about every result when doing quantum algorithms (apparently). 
+To generalize the visualization of quantum algorithms to a higher number of entangled qubits, one must create subspaces per direction of the arrow (since human beings cannot visualize more than \\(3\\) dimensions). Even though this is very restrictive, we generally do not care about every result when doing quantum algorithms (apparently). 
 
 ## Background
 
@@ -20,9 +20,12 @@ Video: https://www.youtube.com/watch?v=WjjUfEpej-0
 
 ## 1. Visualizing Quantum Algorithms
 
-### Deutsch Algorithm
 
 ### Deutsch-Hoza Algorithm
+
+Deutsch-Hoza Algorithm is a quantum algorithm that solves the following problem.
+
+Suppose you have a function \\(f(x): \{0,1\}^n \to \{0,1\}\\). 
 
 ### Grover's Algorithm
 
