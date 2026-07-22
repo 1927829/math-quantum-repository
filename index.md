@@ -25,7 +25,11 @@ Video: https://www.youtube.com/watch?v=WjjUfEpej-0
 
 Deutsch-Hoza Algorithm is a quantum algorithm that solves the following problem.
 
-Suppose you have a function \\(f(x): \{0,1\}^n \to \{0,1\}\\). 
+Suppose you have a function \\(f(x): \{0,1\}^n \to \{0,1\}\\). You are promised it is either constant, meaning that \\(f(x)=0\\) or \\(f(x)=1\\) for all \\(x\\), or it is balanced, meaning that the function returns \\(1\\) and \\(0\\) and equal number of times in the domain of \\(f(x)\\). To solve this deterministically, a classical function requires an exponential number of calls to the oracle in terms of the number of bits, \\(n\\). However, a quantum algorithm can solve this with one oracle inquiry. 
+
+Assuming we already have the ancillary necessary for phase kickback, the quantum algorithm performs a Hadamard on \\(n\\) qubits, then a phase flip for the states such that \\(f(x)=1\\), and then the Hadamard again.
+
+
 
 ### Grover's Algorithm
 
