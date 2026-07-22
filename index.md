@@ -27,7 +27,7 @@ Deutsch-Hoza Algorithm is a quantum algorithm that solves the following problem.
 
 Suppose you have a function \\(f(x): \\{0,1\\}^n \to \\{0,1\\}\\). You are promised it is either constant, meaning that \\(f(x)=0\\) or \\(f(x)=1\\) for all \\(x\\), or it is balanced, meaning that the function returns \\(1\\) and \\(0\\) and equal number of times in the domain of \\(f(x)\\). To solve this deterministically, a classical function requires an exponential number of calls to the oracle in terms of the number of bits, \\(n\\). However, a quantum algorithm can solve this with one oracle inquiry. 
 
-Assuming we already have the ancillary necessary for phase kickback, the quantum algorithm performs a Hadamard on \\(n\\) qubits at the initial \\(0\\) state, then a phase flip for the states such that \\(f(x)=1\\), and then the Hadamard again.
+Assuming we already have the ancillary necessary for phase kickback, the quantum algorithm performs a Hadamard on \\(n\\) qubits at the initial \\(0\\) state, then a phase flip for the states such that \\(f(x)=1\\), then the Hadamard again, and then finally a measurement in the computaitonal basis.
 
 We can then visualize this quantum algorithm, considering two possibilities. The first possibility is that this function is constant. In this diagram, \\(e\\) denotes all the possible qubit states besides \\(0\\).
 
@@ -39,6 +39,16 @@ Then, the Hadamard gate is applied, which rotates the green qubit state \\(180\\
 
 <img width="512" height="342" alt="image" src="https://github.com/user-attachments/assets/27d406e4-1590-4315-93dd-56db1d6b6675" />
 
+Next, the oracle is called. Since we assumed \\(f(x)\\) is balanced, the oracle either negates the entire wavefunction of the qubit or does nothing. However, adding a global phase doesn't change measurement outcomes, so we can pretend nothing happens after the oracle call.
+
+After that, we apply the Hadamrd.
+
+Two rotations of \\(180\\) degrees does nothing to the qubit, and it is back to where it started.
+
+<img width="432" height="340" alt="image" src="https://github.com/user-attachments/assets/ee3fd69c-8f49-45cd-9caf-f791a7a813ff" />
+
+
+After a measurement, we are guaranteed to get the \\(0\\) state.
 
 
 ### Grover's Algorithm
