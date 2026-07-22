@@ -57,7 +57,7 @@ plugins:
 author:
   name   : "Benjamin Tang"
   avatar : "/assets/images/image.png"
-  bio    : "Hell!."
+  bio    : "Hello!
 
 defaults:
   # _posts
