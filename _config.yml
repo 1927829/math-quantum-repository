@@ -56,7 +56,7 @@ plugins:
 
 author:
   name   : "Benjamin Tang"
-  avatar : "/assets/images/QFE.png"
+  avatar : "/assets/images/image.png"
   bio    : "Hell!."
 
 defaults:
