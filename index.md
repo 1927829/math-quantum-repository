@@ -36,9 +36,10 @@ The qubit state initializes like this:
 
 <img width="494" height="375" alt="image" src="https://github.com/user-attachments/assets/c84b2d48-f8e9-4d00-8ac6-ca0105f7af5c" />
 
-Then, the Hadamard gate is applied, which rotates the green qubit state \\(180\\) degrees about the yellow arrow (the directions of this yellow arrow depend on the dimensionality of \\(n\\). What is important to note is that as \\(n\\) grows large, the angle decreases. When \\(n=1\\), the angle is \\(22.5\\) degrees for the yellow arrow.
+Then, the Hadamard gate is applied, which rotates the green qubit state \\(180\\) degrees about the yellow arrow (the directions of this yellow arrow depend on the dimensionality of \\(n\\). What is important to note is that as \\(n\\) grows large, the yellow arrow gets closer and closer to the angel bisector of the \\(x\\) axis and \\(z\\) axis.
 
-<img width="512" height="342" alt="image" src="https://github.com/user-attachments/assets/27d406e4-1590-4315-93dd-56db1d6b6675" />
+<img width="530" height="342" alt="image" src="https://github.com/user-attachments/assets/9a73e6b2-0ef4-46b2-b95a-f77b10b9dd00" />
+
 
 Next, the oracle is called. Since we assumed \\(f(x)\\) is balanced, the oracle either negates the entire wavefunction of the qubit or does nothing. However, adding a global phase doesn't change measurement outcomes, so we can pretend nothing happens after the oracle call.
 
@@ -46,7 +47,7 @@ After that, we apply the Hadamrd.
 
 Two rotations of \\(180\\) degrees does nothing to the qubit, and it is back to where it started.
 
-<img width="432" height="340" alt="image" src="https://github.com/user-attachments/assets/ee3fd69c-8f49-45cd-9caf-f791a7a813ff" />
+<img width="463" height="344" alt="image" src="https://github.com/user-attachments/assets/d8b819eb-8f0a-46ea-ac12-4be5e94762a8" />
 
 
 After a measurement, we are guaranteed to get the \\(0\\) state.
